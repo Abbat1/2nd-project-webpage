@@ -1,0 +1,56 @@
+
+/* styling my body element */
+#home {
+    background-color: red;
+} 
+/* editing these px numbers will allow image size to change */
+
+img{
+    height: 375px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+body{
+    font-family: cursive;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+     
+}
+/* targeting my profile card right here */
+.profile-card{
+ border-radius: 15px;
+ background-color: slateblue;   
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+h1{
+   color:brown;
+   margin: 10px 0 5px 0;
+
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+P1{
+
+    color:black;
+
+}
+
+.btn{
+    /*  */
+display: inline-block;
+padding: 10px 20px;
+margin-top: 15px;
+text-decoration:none;
+color: aquamarine;
+background-color: black;
+
+
+}
